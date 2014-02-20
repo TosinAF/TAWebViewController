@@ -1,11 +1,14 @@
 TAWebViewController
 ======
 
-<img src="https://raw.github.com/TosinAF/TAWebViewController/master/Screenshots/WebView1.png" height="25%" width="25%" style="padding-right:10px"/>
+<img src="https://raw.github.com/TosinAF/TAWebViewController/master/Screenshots/WebView1.png" height="25%" width="25%" />
 <img src="https://raw.github.com/TosinAF/TAWebViewController/master/Screenshots/WebView2.png" height="25%" width="25%" />
+<img src="https://raw.github.com/TosinAF/TAWebViewController/master/Screenshots/WebView3.png" height="25%" width="25%" />
 
-This is a dropin webViewController that displays the Site Title & Base URL. Also inculdes Forward & Back Buttons. 
-Use this to quickly add a decent looking in-app browser to your project. 
+This is a dropin webViewController that displays the Site Title & Base URL. 
+It Also inculdes Forward & Back Buttons & a Progress Bar courtsey of [@ninjinkun](https://github.com/ninjinkun/NJKWebViewProgress)
+
+Use this webViewController to quickly add a decent looking in-app browser to your project. 
 
 I wrote this because I couldn't find a simple drop in UIWebViewController. 
 
