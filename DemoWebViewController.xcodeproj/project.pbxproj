@@ -19,6 +19,12 @@
 		4E3B4BD018B58FB500D8B75B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3B4BB818B58FB500D8B75B /* UIKit.framework */; };
 		4E3B4BD818B58FB500D8B75B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E3B4BD618B58FB500D8B75B /* InfoPlist.strings */; };
 		4E3B4BDA18B58FB500D8B75B /* DemoWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B4BD918B58FB500D8B75B /* DemoWebViewControllerTests.m */; };
+		4E3B4BE518B58FDE00D8B75B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B4BE418B58FDE00D8B75B /* ViewController.m */; };
+		4E3B4BE818B5923000D8B75B /* TAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B4BE718B5923000D8B75B /* TAWebViewController.m */; };
+		4E3B4BEF18B5936B00D8B75B /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B4BEC18B5936B00D8B75B /* NJKWebViewProgress.m */; };
+		4E3B4BF018B5936B00D8B75B /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B4BEE18B5936B00D8B75B /* NJKWebViewProgressView.m */; };
+		4E3B4BF618B5938C00D8B75B /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B4BF418B5938C00D8B75B /* IonIcons.m */; };
+		4E3B4BF718B5938C00D8B75B /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3B4BF518B5938C00D8B75B /* ionicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,18 @@
 		4E3B4BD518B58FB500D8B75B /* DemoWebViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoWebViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		4E3B4BD718B58FB500D8B75B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E3B4BD918B58FB500D8B75B /* DemoWebViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoWebViewControllerTests.m; sourceTree = "<group>"; };
+		4E3B4BE318B58FDE00D8B75B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E3B4BE418B58FDE00D8B75B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E3B4BE618B5923000D8B75B /* TAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAWebViewController.h; sourceTree = "<group>"; };
+		4E3B4BE718B5923000D8B75B /* TAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAWebViewController.m; sourceTree = "<group>"; };
+		4E3B4BEB18B5936B00D8B75B /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		4E3B4BEC18B5936B00D8B75B /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		4E3B4BED18B5936B00D8B75B /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		4E3B4BEE18B5936B00D8B75B /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		4E3B4BF218B5938C00D8B75B /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
+		4E3B4BF318B5938C00D8B75B /* IonIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IonIcons.h; sourceTree = "<group>"; };
+		4E3B4BF418B5938C00D8B75B /* IonIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IonIcons.m; sourceTree = "<group>"; };
+		4E3B4BF518B5938C00D8B75B /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +127,10 @@
 			children = (
 				4E3B4BC318B58FB500D8B75B /* AppDelegate.h */,
 				4E3B4BC418B58FB500D8B75B /* AppDelegate.m */,
+				4E3B4BE318B58FDE00D8B75B /* ViewController.h */,
+				4E3B4BE418B58FDE00D8B75B /* ViewController.m */,
+				4E3B4BE618B5923000D8B75B /* TAWebViewController.h */,
+				4E3B4BE718B5923000D8B75B /* TAWebViewController.m */,
 				4E3B4BC618B58FB500D8B75B /* Images.xcassets */,
 				4E3B4BBB18B58FB500D8B75B /* Supporting Files */,
 			);
@@ -118,6 +140,7 @@
 		4E3B4BBB18B58FB500D8B75B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4E3B4BE918B5928A00D8B75B /* Third Party Libaries */,
 				4E3B4BBC18B58FB500D8B75B /* DemoWebViewController-Info.plist */,
 				4E3B4BBD18B58FB500D8B75B /* InfoPlist.strings */,
 				4E3B4BC018B58FB500D8B75B /* main.m */,
@@ -142,6 +165,37 @@
 				4E3B4BD618B58FB500D8B75B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E3B4BE918B5928A00D8B75B /* Third Party Libaries */ = {
+			isa = PBXGroup;
+			children = (
+				4E3B4BF118B5937D00D8B75B /* IonIcons */,
+				4E3B4BEA18B592A600D8B75B /* NJKWebViewProgress */,
+			);
+			name = "Third Party Libaries";
+			sourceTree = "<group>";
+		};
+		4E3B4BEA18B592A600D8B75B /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				4E3B4BEB18B5936B00D8B75B /* NJKWebViewProgress.h */,
+				4E3B4BEC18B5936B00D8B75B /* NJKWebViewProgress.m */,
+				4E3B4BED18B5936B00D8B75B /* NJKWebViewProgressView.h */,
+				4E3B4BEE18B5936B00D8B75B /* NJKWebViewProgressView.m */,
+			);
+			name = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+		4E3B4BF118B5937D00D8B75B /* IonIcons */ = {
+			isa = PBXGroup;
+			children = (
+				4E3B4BF218B5938C00D8B75B /* ionicons-codes.h */,
+				4E3B4BF318B5938C00D8B75B /* IonIcons.h */,
+				4E3B4BF418B5938C00D8B75B /* IonIcons.m */,
+				4E3B4BF518B5938C00D8B75B /* ionicons.ttf */,
+			);
+			name = IonIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3B4BF718B5938C00D8B75B /* ionicons.ttf in Resources */,
 				4E3B4BBF18B58FB500D8B75B /* InfoPlist.strings in Resources */,
 				4E3B4BC718B58FB500D8B75B /* Images.xcassets in Resources */,
 			);
@@ -239,7 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3B4BEF18B5936B00D8B75B /* NJKWebViewProgress.m in Sources */,
+				4E3B4BF618B5938C00D8B75B /* IonIcons.m in Sources */,
+				4E3B4BF018B5936B00D8B75B /* NJKWebViewProgressView.m in Sources */,
+				4E3B4BE518B58FDE00D8B75B /* ViewController.m in Sources */,
 				4E3B4BC518B58FB500D8B75B /* AppDelegate.m in Sources */,
+				4E3B4BE818B5923000D8B75B /* TAWebViewController.m in Sources */,
 				4E3B4BC118B58FB500D8B75B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +420,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoWebViewController/DemoWebViewController-Prefix.pch";
 				INFOPLIST_FILE = "DemoWebViewController/DemoWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,6 +434,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoWebViewController/DemoWebViewController-Prefix.pch";
 				INFOPLIST_FILE = "DemoWebViewController/DemoWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +499,7 @@
 				4E3B4BDF18B58FB500D8B75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E3B4BE018B58FB500D8B75B /* Build configuration list for PBXNativeTarget "DemoWebViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +508,7 @@
 				4E3B4BE218B58FB500D8B75B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
